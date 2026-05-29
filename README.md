@@ -22,17 +22,16 @@ When you run the script, it automatically:
 
 ## 📁 Final Folder Structure
 
-
+```bash
 src/
-
 ├── assets/
 ├── components/
 ├── features/
-│ └── auth/
-│ ├── api/
-│ ├── components/
-│ ├── hooks/
-│ └── index.ts
+│   └── auth/
+│       ├── api/
+│       ├── components/
+│       ├── hooks/
+│       └── index.ts
 ├── hooks/
 ├── layouts/
 ├── pages/
@@ -41,33 +40,42 @@ src/
 ├── store/
 ├── types/
 └── utils/
-
+```
 
 ---
 
 ## 🚀 How to Use
 
-1. Create a fresh Vite React project
+1. Create a fresh Vite React project:
 
 ```bash
 npm create vite@latest my-app
 cd my-app
 npm install
-Copy app.py into the project root
-Run the script
+```
+
+2. Copy `app.py` into the project root
+
+3. Run the script:
+
+```bash
 python app.py
-Done.
+```
+
+4. Done 🎉
 
 Your project is now structured and ready for real development.
 
-🧠 Why I Built This
+---
+
+## 🧠 Why I Built This
 
 Every time I started a React project, I had to repeat the same setup:
 
-Tailwind installation
-Folder structure creation
-Boilerplate cleanup
-Config adjustments
+- Tailwind installation  
+- Folder structure creation  
+- Boilerplate cleanup  
+- Config adjustments  
 
 It was small work—but repetitive and annoying.
 
@@ -75,18 +83,28 @@ So I automated it.
 
 Now I can start building features immediately instead of wasting time on setup.
 
-📌 Tech Used
-Python (automation script)
-Vite
-React
-Tailwind CSS
-💡 Future Improvements
-Add Redux/Zustand setup option
-Add React Router setup
-Add ESLint + Prettier config
-Convert into CLI tool (npx style)
-Add multiple templates (basic / advanced / enterprise)
-🤝 Contributing
+---
+
+## 📌 Tech Used
+
+- Python (automation script)
+- Vite
+- React
+- Tailwind CSS
+
+---
+
+## 💡 Future Improvements
+
+- Add Redux/Zustand setup option  
+- Add React Router setup  
+- Add ESLint + Prettier config  
+- Convert into CLI tool (npx style)  
+- Add multiple templates (basic / advanced / enterprise)
+
+---
+
+## 🤝 Contributing
 
 Feel free to fork it and modify it for your own workflow.
 
